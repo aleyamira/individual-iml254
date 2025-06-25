@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Audiowide', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(to bottom right, #F4CFC7, #FFC98B);
+      text-align: center;
+      color: #632024;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 35px;
+      margin-bottom: 30px;
+      color: #632024;
+      text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 190, 152, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+      max-width: 900px;
+      width: 100%;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    table {
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    th {
+      background-color: #E79796;
+      color: white;
+      padding: 15px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      color: #632024;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #FFBE98;
+    }
+
+    img {
+      width: 220px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      table, img {
+        width: 100%;
+        max-width: 90%;
+      }
+
+      img {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Personal Information</h1>
+
+  <div class="container">
+    <table>
+      <tr>
+        <th>Field</th>
+        <th>Detail</th>
+      </tr>
+      <tr>
+        <td><i><u>Name</u></i></td>
+        <td><i><u>NUR ALEYA AMIRA BINTI ADNAN</u></i></td>
+      </tr>
+      <tr>
+        <td><i><u>Age</u></i></td>
+        <td><i><u>20 YEARS OLD</u></i></td> 
+      </tr>
+      <tr>
+        <td><i><u>Gender</u></i></td>
+        <td><i><u>FEMALE</u></i></td> 
+      </tr>
+      <tr>
+        <td><i><u>Date of Birth</u></i></td>
+        <td><i><u>17 JUNE 2005</u></i></td> 
+      </tr>
+      <tr>
+        <td><i><u>Hometown</u></i></td>
+        <td><i><u>LENGGONG, PERAK</u></i></td> 
+      </tr>
+    </table>
+    <img src="image1.jpg" alt="Profile Picture">
+  </div>
+
+</body>
+</html>
